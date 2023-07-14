@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cleafix:after {
+            content: '.';
+            display: block;
+            clear: both;
+            overflow: hidden;
+            height: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .header {
+            width: 1502px;
+            height: 201px;
+            background-color: #010080;
+        }
+
+        .header .left {
+            margin-left: 50px;
+            margin-top: 80px;
+            float: left;
+            color: #fff;
+        }
+
+        .header img {
+            float: right;
+        }
+
+        .aside {
+            float: left;
+            width: 182px;
+            height: 480px;
+            background: url(nav-bg.jpg);
+        }
+
+        .aside ul li a {
+            font-weight: 700;
+            color: #010080;
+        }
+
+        .article {
+            width: 1320px;
+            height: 480px;
+            float: left;
+            background-color: #e2edff;
+        }
+
+        .article h3 {
+            margin-left: 50px;
+            color: #ee8f81;
+        }
+
+        .article p {
+            margin-left: 50px;
+            font-size: 14px;
+            color: #010080;
+
+        }
+
+        table {
+            margin-left: 50px;
+            border: 1px solid #010080;
+            color: #010080;
+            text-align: left;
+        }
+
+        .foot {
+            float: left;
+            width: 1502px;
+            height: 201px;
+            background-color: #bed8f3;
+        }
+
+        .foot p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" class="cleafix">
+        <div class="left">
+            <h2>泡泡潜水俱乐部</h2>
+            <p>泡泡潜水俱乐部为您量身打造一流潜水服务。让你开心而来，满意而归……</p>
+        </div>
+        <img src="header-bg.jpg" alt="">
+    </div>
+    <div class="neirong" class="cleafix">
+        <div class="aside" class="cleafix">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">俱乐部简介</a></li>
+                <li><a href="#">近期活动</a></li>
+                <li><a href="#">精彩图片</a></li>
+                <li><a href="#">在线预约</a></li>
+            </ul>
+        </div>
+        <div class="article" class="cleafix">
+            <h3>在线预约</h3>
+            <p>为了让我们为您提供某项服务，您可以填写下面的表单。</p>
+            <table>
+                <tr>
+                    <td>预约类型：</td>
+                    <td><select name="" id="">
+                            <option value="">潜水训练</option>
+                            <option value="">游泳训练</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>联系人：</td>
+                    <td> <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail：</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>通讯地址：</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>电话：</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>照片：</td>
+                    <td>
+                        <input type="submit" value="选择文件">未选择任何文件
+                    </td>
+                </tr>
+                <tr>
+                    <td>预约备注：</td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>如果我们有必要与您电话联系，最好是在：</td>
+                    <td>
+                        <input type="radio"> <label for="">早上</label>
+                        <input type="radio"> <label for="">下午</label>
+                        <input type="radio"> <label for="">傍晚</label>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>可以将以上信息在俱乐部公开<input type="checkbox" checked="checked"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="提交">
+                        <input type="submit" value="重置">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="foot">
+        <p>Copyright®2008 BubbleUnder.com. All Rights Reserved. 版权所有 泡泡潜水俱乐部
+        <p>
+        <p>地址：海南省三亚市碧海蓝大酒店海日阁8A22号
+        <p>
+        <p>邮箱：<a href="vip@BubbleUnder.com">vip@BubbleUnder.com</a>
+        <p>
+        <p>咨询电话：0898-88233755 88233752 13976113755</p>
+    </div>
+</body>
+
+</html>

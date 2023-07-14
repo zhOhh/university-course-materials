@@ -1,0 +1,86 @@
+单项选择
+C D A D D 
+D D C D A
+D A D C A
+
+程序设计
+1 示例代码：
+int func(int n)
+{ 
+    int num=0;
+    while(n!=1)
+    {
+        if(n%2==0)
+            n/=2;
+        else
+            n=(3*n+1)/2;
+        num++;
+    }
+    return num;
+}
+
+2 示例代码：
+int num,sum=0;
+	for(num=m;num<=n;num++)
+	{
+	    if(num%3==0&&num%7==0)
+	        sum+=num;
+	}
+	return sum;
+
+3 示例代码：
+for(int i=low;i<=up;i++)                
+{
+	for(int j=2;j<i;j++)                
+		if(i%j==0)break;
+			if(j==i) count++;  
+
+
+程序填空
+1 答案：
+位置 1:
+0;
+位置 2:
+count+=1; 【或】 count=count+1; 【或】 count++; 【或】 ++count;
+位置 3:
+sum+=a[i];  【或】 sum=sum+a[i]; 
+ 
+2 答案：
+位置 1:
+Person()
+位置 2:
+virtual void
+位置 3:
+:Person(s), gpa(g)
+位置 4:
+Person* p
+
+3 答案：
+位置 1:
+j=4
+位置 2:
+j>i 【或】 i<j 【或】 j>=i 【或】 i<=j 【或】 i<3 【或】 i<=2 【或】 i<2 【或】 i<=1 【或】 j>1 【或】 j>2 【或】 j>=2 【或】 j>=3
+位置 3:
+ch=st[i];
+位置 4:
+st[i]=st[j];
+
+4 答案：
+位置 1:
+(p1.GetX()-p2.GetX())*(p1.GetX()-p2.GetX())+(p1.GetY()-p2.GetY())*(p1.GetY()-p2.GetY()) 【或】 (p2.GetX()-p1.GetX())*(p2.GetX()-p1.GetX())+(p2.GetY()-p1.GetY())*(p2.GetY()-p1.GetY()) 【或】 pow(p1.GetX()-p2.GetX(),2)+pow(p1.GetY()-p2.GetY(), 2) 【或】 pow(p2.GetX()-p1.GetX(),2)+pow(p2.GetY()-p1.GetY(), 2) 【或】 pow(p1.GetY()-p2.GetY(), 2)+pow(p1.GetX()-p2.GetX(),2) 【或】 pow(p2.GetY()-p1.GetY(), 2)+pow(p2.GetX()-p1.GetX(),2)
+位置 2:
+true
+位置 3:
+false
+位置 4:
+fabs(AB-BC)<MINNUM && fabs(AB-AC)<MINNUM && fabs(BC-AC)<MINNUM)
+
+5 答案：
+位置 1:
+return is_on;
+位置 2:
+=0
+位置 3:
+device(&dev)
+位置 4:
+device->switchOff()

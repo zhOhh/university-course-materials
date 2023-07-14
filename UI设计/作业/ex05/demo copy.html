@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" style="text-align: center; background-color: aqua;" name="my_form"
+        onsubmit="return check_form(this)">
+
+        用户名：<input type="text" name="username"><br>
+        性别：
+        <select name="" id="">
+            <option value="">男</option>
+            <option value="">女</option>
+        </select><br>
+        密码： <input type="text" name="password"><br>
+        确认密码： <input type="text" name="password"><br>
+        <input type="submit" value="提交">
+    </form>
+
+    <script>
+        function check_form(form) {
+            if (form.username.value == "") {
+                alert("用户名为空")
+                form.username.focus();
+                return false;
+            }
+            if (form.password.value == "") {
+                alert("密码为空")
+                form.password.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</body>
+
+</html>
